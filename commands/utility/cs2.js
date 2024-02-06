@@ -10,12 +10,12 @@ let mbd = new EmbedBuilder().setColor(1848932).setTimestamp();
 
 module.exports = {
 	data: new SlashCommandBuilder()
-		.setName('csgo')
-		.setDescription('Show CSGO Stats of User')
+		.setName('cs2')
+		.setDescription('Show CS2 Stats of User')
 		.addStringOption(option => 
 			option
 				.setName('steamid64')
-				.setDescription('CSGO Stats von SteamID Abrufen')
+				.setDescription('CS2 Stats von SteamID Abrufen')
 				.setRequired(false)),
 	async execute(interaction) {
 		if(interaction.channelId != datafile[interaction.guildId].mainchannel) return interaction.reply({content: `FEHLER: Bitte benutze den vorgesehenen Channel!`, ephemeral: true });
@@ -42,7 +42,7 @@ module.exports = {
 		hsp = rtt((headshot_kills * 100) / kills);
 		acc = rtt((shots_hit * 100) / shots_fired);
 		mbd.setThumbnail(avatarfull);
-		mbd.setTitle(`CSGO Stats von ${personaname}`);
+		mbd.setTitle(`CS2 Stats von ${personaname}`);
 		mbd.setURL(`${profileurl}`);
         mbd.setFields(
 		{ name: 'Kills', value: `${kills}`, inline: true },
