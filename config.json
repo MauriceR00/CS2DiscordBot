@@ -1,7 +1,7 @@
 {
     "token": "DISCORD-BOT-TOKEN",
-    "clientId": "DISCORD-USER-ID",
+    "clientId": "DISCORD-BOT-ID",
     "guildId": "DISCORD-GUILD-ID",
-	  "steamId": "STEAM-WEB-API-KEY",
-	  "faceitId": "FACEIT-API-KEY"
+    "steamId": "STEAM-WEB-API-KEY",
+    "faceitId": "FACEIT-API-KEY"
 }
