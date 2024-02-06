@@ -10,10 +10,15 @@ Man kann entweder allgemeine Statistiken, wie Kills, Tode, Headshot % usw., oder
 Um den Bot zu benutzen, muss man erstmal in der "config.json" Datei die nötigen Token eingeben.
 
 "token" = [Discord Bot Token](https://discord.com/developers/applications)
+
 "clientId" = Die User ID des Bots
+
 "guildId" = Die ID des Servers
+
 "steamId" = [Steam Web API Key](https://steamcommunity.com/dev)
+
 "faceitId" = [FaceIT Web API Key](https://developers.faceit.com/)
+
 
 
 Danach nurnoch die "deploy-commands.js" Datei mit den Befehl "node deploy-commands.js" ausführen, nachdem dies erledigt ist kann man den Bot mit "node index.js" starten.
